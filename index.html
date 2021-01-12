@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping cart project!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 class="jumbotron text-center">SHOP NOW!</h1>
+    <div class="container">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Price</th>
+                    <th><a href="#cartList" class="btn btn-secondary">Cart list</a></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="product">
+                    <td class="product-title">Iphone</td>
+                    <td class="product-price">&#36;1000</td>
+                    <td><button type="button" class="btn btn-primary addToCartBtn">Add to cart</button></td>
+                </tr>
+                <tr class="product">
+                    <td class="product-title">Huawei</td>
+                    <td class="product-price">&#36;400</td>
+                    <td><button type="button" class="btn btn-primary addToCartBtn">Add to cart</button></td>
+                </tr>
+                <tr class="product">
+                    <td class="product-title">Samsung</td>
+                    <td class="product-price">&#36;200</td>
+                    <td><button type="button" class="btn btn-primary addToCartBtn">Add to cart</button></td>
+                </tr>
+                <tr class="product">
+                    <td class="product-title">Xiomi</td>
+                    <td class="product-price">&#36;300</td>
+                    <td><button type="button" class="btn btn-primary addToCartBtn">Add to cart</button></td>
+                </tr>
+                <tr class="product">
+                    <td class="product-title">Tecno</td>
+                    <td class="product-price">&#36;250</td>
+                    <td><button type="button" class="btn btn-primary addToCartBtn">Add to cart</button></td>
+                </tr>
+                <tr class="product">
+                    <td class="product-title">Vivo</td>
+                    <td class="product-price">&#36;150</td>
+                    <td><button type="button" class="btn btn-primary addToCartBtn">Add to cart</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- CART LIST -->
+    <div class="cart-container" id="cartList">
+        <h1 class="jumbotron text-center">CART</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 items">
+                <h4>ITEM</h4>
+                </div>
+                <div class="col-md-4 prices">
+                    <h4>PRICE</h4>
+                </div>
+                <div class="col-md-4 quantitys">
+                    <h4>QUANTITY</h4>
+                </div>
+            </div>
+
+            <div class="cartedProduct mt-2">
+                <div class="productContainer">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom Javascript -->
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

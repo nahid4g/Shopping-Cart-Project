@@ -1,0 +1,12 @@
+.cart-container h4 {
+    border-bottom: 2px solid black;
+}
+.b-bottom {
+    border-bottom: 1px solid black;
+}
+hr .b-bottom{
+    border-bottom: 1px solid black;
+}
+.for-mt {
+    margin-top: -9px;
+}
